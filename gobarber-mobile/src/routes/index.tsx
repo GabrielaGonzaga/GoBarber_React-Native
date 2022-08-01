@@ -8,6 +8,7 @@ import SignUp from '../Pages/SignUp';
 const Auth = createNativeStackNavigator();
 
 const AuthRoutes: React.FC = () => (
+  // @ts-ignore 
   <Auth.Navigator
     screenOptions={{
       headerShown: false,
