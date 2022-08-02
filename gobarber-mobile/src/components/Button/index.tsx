@@ -2,7 +2,6 @@ import React from 'react';
 import { RectButtonProperties } from 'react-native-gesture-handler';
 import { Container, ButtonText } from './styles';
 import AppLoading from 'expo-app-loading';
-import { useField } from '@unform/core';
 import { 
     useFonts, RobotoSlab_500Medium, 
     RobotoSlab_400Regular
@@ -14,8 +13,6 @@ interface ButtonProps extends RectButtonProperties{
 }
 
 const Button: React.FC<ButtonProps> = ({children, ...rest}) => {
-
-    const {registerField, defaultValue, fieldName, error} = useField(name);
 
     let [fontsLoaded] = useFonts({
         RobotoSlab_500Medium,

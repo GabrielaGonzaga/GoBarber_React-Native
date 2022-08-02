@@ -15,14 +15,6 @@ export const Text = styled.Text`
     margin: 34px 0 24px;
 `;
 
-export const ForgotPassword = styled.TouchableOpacity`
-    margin-top: 24px;
-`;
-
-export const TextForgotPassword = styled.Text `
-    font-size: 16px;
-    color: #F4EDE8;
-`
 export const ReturnToLoginButton = styled.TouchableOpacity`
     position: absolute;
     left: 0;
@@ -42,5 +34,5 @@ export const ReturnToLoginButton = styled.TouchableOpacity`
 export const ReturnToLoginButtonText = styled.Text `
     font-size: 14px;
     color: #FFF;
-    margin-left: 16px;
+    margin-left: -5px;
 `

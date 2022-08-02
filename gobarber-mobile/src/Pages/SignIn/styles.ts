@@ -18,7 +18,7 @@ export const ForgotPassword = styled.TouchableOpacity`
 `;
 
 export const TextForgotPassword = styled.Text `
-    font-size: 16px;
+    font-size: 14px;
     color: #F4EDE8;
 `
 export const CreateAccountButton = styled.TouchableOpacity`
